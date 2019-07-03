@@ -1,4 +1,4 @@
-# Algorithms-and-Data-Structures
+# Algorithms and Data Structures
 A repository containing various data structures and algorithms exercises and solutions
 
 Each exercise/solution is within its own folder, along with their accompanying tests
