@@ -1,0 +1,27 @@
+{
+  "name": "algorithms-and-data-structures",
+  "version": "1.0.0",
+  "description": "A repository containing various data structures and algorithms exercises and solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmuthoga/Algorithms-and-Data-Structures.git"
+  },
+  "keywords": [
+    "javascript",
+    "data-structures",
+    "algorithms"
+  ],
+  "author": "Batian Muthoga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmuthoga/Algorithms-and-Data-Structures/issues"
+  },
+  "homepage": "https://github.com/bmuthoga/Algorithms-and-Data-Structures#readme"
+}
