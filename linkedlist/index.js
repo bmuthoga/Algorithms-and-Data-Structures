@@ -52,11 +52,11 @@ class LinkedList {
 
   removeFirst() {
     if (!this.head) return
-    
+
     this.head = this.head.next
   }
 
-  removeLast() {
+   removeLast() {
     if (!this.head) return
 
     if (!this.head.next) {
@@ -120,6 +120,20 @@ class LinkedList {
     }
 
     return node // or return null
+  }
+
+  removeAt(integer) {
+    if (!this.head) return
+
+    if (integer === 0) {
+      return this.head = this.head.next
+    }
+
+    const previousNode = this.getAt(integer - 1)
+
+    if (!previousNode || !previousNode.next) return
+
+    previousNode.next = previousNode.next.next
   }
 }
 
