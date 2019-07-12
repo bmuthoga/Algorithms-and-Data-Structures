@@ -95,6 +95,16 @@ class LinkedList {
   //     currentNode = currentNode.next
   //   }
   // }
+
+  insertLast(data) {
+    if (!this.getLast()) {
+      // the list is empty
+      this.head = new Node(data) 
+    } else {
+      // the list is not empty
+      this.getLast().next = new Node(data) 
+    }
+  }
 }
 
 module.exports = { Node, LinkedList };
