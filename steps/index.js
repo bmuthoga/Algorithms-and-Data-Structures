@@ -18,22 +18,22 @@
 //       '####'
 
 /* Using Recursion */
-function steps(n, row = 0, stair = '') {
-  if (row === n) return
+function steps(n, row = 0, stair = "") {
+  if (row === n) return;
 
   if (stair.length === n) {
-    console.log(stair)
+    console.log(stair);
 
-    return steps(n, row + 1)
+    return steps(n, row + 1);
   }
 
   if (stair.length <= row) {
-    stair += '#'
+    stair += "#";
   } else {
-    stair += ' '
+    stair += " ";
   }
 
-  steps(n, row, stair)
+  steps(n, row, stair);
 }
 
 module.exports = steps;
@@ -54,7 +54,6 @@ module.exports = steps;
 //     console.log(stair)
 //   }
 // }
-
 
 /* Another solution */
 // function steps(n) {
